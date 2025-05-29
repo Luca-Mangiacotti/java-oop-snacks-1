@@ -25,9 +25,8 @@ public class ContoBancario {
         if (importo <= this.saldo) {
             this.saldo -= importo;
         } else {
-            System.out
-                    .println("Il tuo saldo di: " + this.saldo + " euro non è sufficiente per prelevare l'importo di: "
-                            + importo + " euro richiesto.");
+            System.out.println("Il tuo saldo di: " + this.saldo + " euro non è sufficiente per prelevare l'importo di: "
+                    + importo + " euro richiesto.");
         }
     }
 
